@@ -1,0 +1,14 @@
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\bin\Debug\net8.0\aula3.exe
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\bin\Debug\net8.0\aula3.deps.json
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\bin\Debug\net8.0\aula3.runtimeconfig.json
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\bin\Debug\net8.0\aula3.dll
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\bin\Debug\net8.0\aula3.pdb
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\obj\Debug\net8.0\aula3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\obj\Debug\net8.0\aula3.AssemblyInfoInputs.cache
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\obj\Debug\net8.0\aula3.AssemblyInfo.cs
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\obj\Debug\net8.0\aula3.csproj.CoreCompileInputs.cache
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\obj\Debug\net8.0\aula3.dll
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\obj\Debug\net8.0\refint\aula3.dll
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\obj\Debug\net8.0\aula3.pdb
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\obj\Debug\net8.0\aula3.genruntimeconfig.cache
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\aula3\obj\Debug\net8.0\ref\aula3.dll
