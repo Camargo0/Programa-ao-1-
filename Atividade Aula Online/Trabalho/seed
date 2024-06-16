@@ -1,0 +1,30 @@
+USE SistemaTransporteAereo;
+
+-- Inserção de dados em Aeronaves
+INSERT INTO Aeronaves (tipo, numero_poltronas) VALUES 
+('Boeing 737', 200),
+('Airbus A320', 180);
+
+-- Inserção de dados em Aeroportos
+INSERT INTO Aeroportos (nome, cidade, pais) VALUES 
+('Aeroporto Internacional de Guarulhos', 'São Paulo', 'Brasil'),
+('Aeroporto Internacional de Los Angeles', 'Los Angeles', 'EUA');
+
+-- Inserção de dados em Voos
+INSERT INTO Voos (id_aeronave, aeroporto_origem, aeroporto_destino, horario_saida, horario_chegada) VALUES 
+(1, 1, 2, '2024-07-01 08:00:00', '2024-07-01 14:00:00');
+
+-- Inserção de dados em Escalas
+INSERT INTO Escalas (id_voo, aeroporto_escala, horario_saida) VALUES 
+(1, 1, '2024-07-01 10:00:00');
+
+-- Inserção de dados em Poltronas
+INSERT INTO Poltronas (id_aeronave, localizacao, disponivel) VALUES 
+(1, 'janela', TRUE),
+(1, 'corredor', TRUE),
+(2, 'direita', TRUE),
+(2, 'esquerda', TRUE);
+
+-- Inserção de dados em Clientes Preferenciais
+INSERT INTO ClientesPreferenciais (nome, email, telefone) VALUES 
+('João Silva', 'joao.silva@email.com', '1111-2222');

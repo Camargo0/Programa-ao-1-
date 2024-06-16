@@ -1,0 +1,113 @@
+-- Criação do Banco de Dados
+CREATE DATABASE SistemaTransporteAereo;
+
+USE SistemaTransporteAereo;
+
+-- Tabela de Aeronaves
+CREATE TABLE Aeronaves (
+    id_aeronave INT PRIMARY KEY AUTO_INCREMENT,
+    tipo VARCHAR(50) NOT NULL,
+    numero_poltronas INT NOT NULL
+);
+
+-- Tabela de Clientes Preferenciais
+CREATE TABLE ClientesPreferenciais (
+    id_cliente INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    telefone VARCHAR(15)
+);
+
+-- Tabela de Aeroportos
+CREATE TABLE Aeroportos (
+    id_aeroporto INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    pais VARCHAR(100) NOT NULL
+);
+
+-- Tabela de Voos
+CREATE TABLE Voos (
+    id_voo INT PRIMARY KEY AUTO_INCREMENT,
+    id_aeronave INT,
+    aeroporto_origem INT,
+    aeroporto_destino INT,
+    horario_saida DATETIME NOT NULL,
+    horario_chegada DATETIME NOT NULL,
+    FOREIGN KEY (id_aeronave) REFERENCES Aeronaves(id_aeronave),
+    FOREIGN KEY (aeroporto_origem) REFERENCES Aeroportos(id_aeroporto),
+    FOREIGN KEY (aeroporto_destino) REFERENCES Aeroportos(id_aeroporto)
+);
+
+-- Tabela de Escalas
+CREATE TABLE Escalas (
+    id_escala INT PRIMARY KEY AUTO_INCREMENT,
+    id_voo INT,
+    aeroporto_escala INT,
+    horario_saida DATETIME NOT NULL,
+    FOREIGN KEY (id_voo) REFERENCES Voos(id_voo),
+    FOREIGN KEY (aeroporto_escala) REFERENCES Aeroportos(id_aeroporto)
+);
+
+-- Tabela de Poltronas
+CREATE TABLE Poltronas (
+    id_poltrona INT PRIMARY KEY AUTO_INCREMENT,
+    id_aeronave INT,
+    localizacao ENUM('janela', 'corredor', 'direita', 'esquerda') NOT NULL,
+    disponivel BOOLEAN DEFAULT TRUE,
+    FOREIGN KEY (id_aeronave) REFERENCES Aeronaves(id_aeronave)
+);
+
+-- Inserção de dados em Aeronaves
+INSERT INTO Aeronaves (tipo, numero_poltronas) VALUES 
+('Boeing 737', 200),
+('Airbus A320', 180);
+
+-- Inserção de dados em Aeroportos
+INSERT INTO Aeroportos (nome, cidade, pais) VALUES 
+('Aeroporto Internacional de Guarulhos', 'São Paulo', 'Brasil'),
+('Aeroporto Internacional de Los Angeles', 'Los Angeles', 'EUA');
+
+-- Inserção de dados em Voos
+INSERT INTO Voos (id_aeronave, aeroporto_origem, aeroporto_destino, horario_saida, horario_chegada) VALUES 
+(1, 1, 2, '2024-07-01 08:00:00', '2024-07-01 14:00:00');
+
+-- Inserção de dados em Escalas
+INSERT INTO Escalas (id_voo, aeroporto_escala, horario_saida) VALUES 
+(1, 1, '2024-07-01 10:00:00');
+
+-- Inserção de dados em Poltronas
+INSERT INTO Poltronas (id_aeronave, localizacao, disponivel) VALUES 
+(1, 'janela', TRUE),
+(1, 'corredor', TRUE),
+(2, 'direita', TRUE),
+(2, 'esquerda', TRUE);
+
+-- Inserção de dados em Clientes Preferenciais
+INSERT INTO ClientesPreferenciais (nome, email, telefone) VALUES 
+('João Silva', 'joao.silva@email.com', '1111-2222');
+
+-- Consultas para os Relatórios
+
+-- a) Listagem de Aeronaves ordenadas por tipo
+SELECT * FROM Aeronaves ORDER BY tipo;
+
+-- b) Relatório de Voos das Aeronaves por período (dia/semana/mês)
+-- Por dia
+SELECT * FROM Voos WHERE DATE(horario_saida) = '2024-07-01';
+
+-- Por semana
+SELECT * FROM Voos WHERE YEARWEEK(horario_saida, 1) = YEARWEEK('2024-07-01', 1);
+
+-- Por mês
+SELECT * FROM Voos WHERE MONTH(horario_saida) = 7 AND YEAR(horario_saida) = 2024;
+
+-- c) Listagem de voos que fazem escala em um determinado local
+SELECT Voos.* FROM Voos 
+JOIN Escalas ON Voos.id_voo = Escalas.id_voo
+WHERE Escalas.aeroporto_escala = (SELECT id_aeroporto FROM Aeroportos WHERE nome = 'Aeroporto Internacional de Guarulhos');
+
+-- d) Exibição de poltronas disponíveis em um determinado voo/avião
+SELECT Poltronas.* FROM Poltronas 
+JOIN Voos ON Poltronas.id_aeronave = Voos.id_aeronave 
+WHERE Voos.id_voo = 1 AND Poltronas.disponivel = TRUE;
