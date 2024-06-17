@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "d45o6gGp2wd+lFSDZyJkMLbrU7n+7V202xxSWqibN8E+8lRC6e86HA1SmcQ7MIfw1p1Y28AEkTOag0HGOKxhyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Camargo\\Desktop\\Programação\\Atividade Aula Online\\Arquivos\\Arquivos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Camargo\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Camargo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Camargo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Camargo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

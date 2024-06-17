@@ -1,0 +1,59 @@
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\Arquivos.csproj.AssemblyReference.cache
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\Arquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\Arquivos.AssemblyInfoInputs.cache
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\Arquivos.AssemblyInfo.cs
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\Arquivos.csproj.CoreCompileInputs.cache
+C:\Users\401912\Documents\exe\Arquivos\bin\Debug\net7.0\Arquivos.exe
+C:\Users\401912\Documents\exe\Arquivos\bin\Debug\net7.0\Arquivos.deps.json
+C:\Users\401912\Documents\exe\Arquivos\bin\Debug\net7.0\Arquivos.runtimeconfig.json
+C:\Users\401912\Documents\exe\Arquivos\bin\Debug\net7.0\Arquivos.dll
+C:\Users\401912\Documents\exe\Arquivos\bin\Debug\net7.0\Arquivos.pdb
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\Arquivos.dll
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\refint\Arquivos.dll
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\Arquivos.pdb
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\Arquivos.genruntimeconfig.cache
+C:\Users\401912\Documents\exe\Arquivos\obj\Debug\net7.0\ref\Arquivos.dll
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.AssemblyInfo.cs
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.dll
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\refint\Arquivos.dll
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.pdb
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.exe
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.deps.json
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.runtimeconfig.json
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.dll
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.pdb
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.genruntimeconfig.cache
+C:\Users\DELL\Documents\GitHub\progamacao-1\Arquivos\obj\Debug\net7.0\ref\Arquivos.dll
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.exe
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.deps.json
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.runtimeconfig.json
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.dll
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\bin\Debug\net7.0\Arquivos.pdb
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.AssemblyInfoInputs.cache
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.AssemblyInfo.cs
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.csproj.CoreCompileInputs.cache
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.sourcelink.json
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.dll
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\refint\Arquivos.dll
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.pdb
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\Arquivos.genruntimeconfig.cache
+C:\Users\wesll\OneDrive\Área de Trabalho\portifólio\progamacao-1\Arquivos\obj\Debug\net7.0\ref\Arquivos.dll
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\bin\Debug\net7.0\Arquivos.exe
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\bin\Debug\net7.0\Arquivos.deps.json
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\bin\Debug\net7.0\Arquivos.runtimeconfig.json
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\bin\Debug\net7.0\Arquivos.dll
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\bin\Debug\net7.0\Arquivos.pdb
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\obj\Debug\net7.0\Arquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\obj\Debug\net7.0\Arquivos.AssemblyInfoInputs.cache
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\obj\Debug\net7.0\Arquivos.AssemblyInfo.cs
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\obj\Debug\net7.0\Arquivos.csproj.CoreCompileInputs.cache
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\obj\Debug\net7.0\Arquivos.dll
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\obj\Debug\net7.0\refint\Arquivos.dll
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\obj\Debug\net7.0\Arquivos.pdb
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\obj\Debug\net7.0\Arquivos.genruntimeconfig.cache
+C:\Users\Camargo\Desktop\Programação\Atividade Aula Online\Arquivos\obj\Debug\net7.0\ref\Arquivos.dll
